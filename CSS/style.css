@@ -31,6 +31,12 @@ nav{
     text-decoration: none;
 
 }
+
+.links a:hover{
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
 #logo{
     font-size: 40px;
 }
@@ -65,9 +71,20 @@ nav{
     padding: 10px;
     border-radius: 5px;
 }
+
+.section-1 .btn1:hover
+{
+    background: black;
+    border: 1px solid black;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.9s;
+}
 /* section1 end */
 
-
+/* section 2 start */
 .section-2{
     background-color: black;
     display: flex;
@@ -84,7 +101,9 @@ nav{
     color: green;
     font-size: 50px;
 }
+/* section 2 end */
 
+/* section 3 start */
 .section-3
 {
     display: flex;
@@ -107,7 +126,9 @@ nav{
 {
     scale: 1.1;
 }
+/* section 3 end */
 
+/* section 4 start */
 .section-4-box-1
 {
     display: flex;
@@ -160,6 +181,9 @@ nav{
     display: flex;
     justify-content: space-around;
 }
+/* section 4 end */
+
+/* section 5 start */
 .section-5 .container
 {
     display: flex;
@@ -195,3 +219,80 @@ nav{
     align-items: center;
     justify-content: center;
 }
+
+.section-5-box-3 button
+{
+    border: none;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 4px;
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+}
+/* section 5 end */
+
+/* section 6 start */
+.section-6-box-1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section-6-box-2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-6-box-2 button
+{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    width: 8%;
+}
+
+.section-6-box-2 button:hover
+{
+    background-color: white;
+    color: black;
+    transition: 0.7s;
+}
+
+.section-6
+{
+    padding: 50px;
+}
+/* section 6 end */
+
+/* footer start */
+footer
+{
+    background-color: black;
+    padding: 20px;
+}
+
+.footer-box-1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: greenyellow;
+}
+
+.footer-box-2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: greenyellow;
+}
+/* footer end */
+
