@@ -16,17 +16,17 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200 px;
+    max-width: 1200px;
     margin: auto
 }
 .links{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30 px;
+    gap: 30px;
 }
 .links a{
-    font-size: 16 px;
+    font-size: 16px;
     color: white;
     text-decoration: none;
 
@@ -34,11 +34,11 @@ nav{
 
 .links a:hover{
     opacity: 0.7;
-    transition: 0.5 s;
+    transition: 0.5s;
 
 }
 #logo{
-    font-size: 40 px;
+    font-size: 40px;
 }
 /* navbar end  */
 
@@ -53,34 +53,34 @@ nav{
 
 .section-1
 {
-    max-width: 1200 px;
+    max-width: 1200px;
     margin: auto;
 }
 
 .section-1 .hd
 {
-    font-size: 35 px;
+    font-size: 35px;
 }
 
 .section-1 .btn1
 {
     background: none;
-    border: 1 px solid white;
-    font-size: 20 px;
+    border: 1px solid white;
+    font-size: 20px;
     color: white;
-    padding: 10 px;
-    border-radius: 5 px;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .section-1 .btn1:hover
 {
     background: black;
-    border: 1 px solid black;
-    font-size: 20 px;
+    border: 1px solid black;
+    font-size: 20px;
     color: white;
-    padding: 10 px;
-    border-radius: 5 px;
-    transition: 0.9 s;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.9s;
 }
 /* section1 end */
 
@@ -90,16 +90,16 @@ nav{
     display: flex;
     text-align: center;
     justify-content: space-around;
-    gap: 50 px;
+    gap: 50px;
 
 }
 .section-2-box{
-    padding: 100 px 0;
+    padding: 100px 0;
 
 }
 .section-2-box i{
     color: green;
-    font-size: 50 px;
+    font-size: 50px;
 }
 /* section 2 end */
 
@@ -108,16 +108,16 @@ nav{
 {
     display: flex;
     background: linear-gradient(white,green);
-    padding: 100 px 0;
+    padding: 100px 0;
     justify-content: center;  
-    gap: 40 px; 
+    gap: 40px; 
 }
 
 .section-3 img
 {
-    transition: 0.9 s;
-    height: 500 px;
-    width: 300 px;
+    transition: 0.9s;
+    height: 500px;
+    width: 300px;
     display: flex;
     object-fit: cover;
 }
@@ -139,7 +139,7 @@ nav{
 {
     background-color: green;
     margin: auto;
-    height: 400 px;
+    height: 400px;
     padding: 0 5%;
 }
 
@@ -160,18 +160,18 @@ nav{
 {
     display: flex;
     justify-content: center;
-    gap: 20 px;
+    gap: 20px;
     align-items: center;
 }
 
 .section-4-sub-box
 {
-    border-radius: 100 %;
+    border-radius: 100%;
 }
 
 .section-4-box-4 img
 {
-    width: 112 px;
+    width: 112px;
     filter: invert(1);
     object-fit: scale-down;
 }
@@ -189,28 +189,28 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20 px;
+    gap: 20px;
 }
 
 .section-5-box-3
 {
     color: black;
     background-color: white;
-    width: 300 px;
+    width: 300px;
     text-align: center;
     /* padding: 30px; */
-    height: 200 px;
+    height: 200px;
 }
 .section-5-box-3 h4
 {   
     background-color: whitesmoke;
-    padding: 10 px;
+    padding: 10px;
 }
 
 .section-5
 {
     background-color: black;
-    padding: 30 px;
+    padding: 30px;
 }
 
 .section-5 h1,p
@@ -225,10 +225,10 @@ nav{
     border: none;
     background-color: dodgerblue;
     color: white;
-    border-radius: 4 px;
+    border-radius: 4px;
     width: 90%;
-    padding: 10 px;
-    margin-top: 10 px;
+    padding: 10px;
+    margin-top: 10px;
 }
 /* section 5 end */
 
@@ -253,8 +253,8 @@ nav{
     border: none;
     background-color: black;
     color: white;
-    padding: 10 px;
-    border-radius: 4 px;
+    padding: 10px;
+    border-radius: 4px;
     width: 8%;
 }
 
@@ -262,12 +262,12 @@ nav{
 {
     background-color: white;
     color: black;
-    transition: 0.7 s;
+    transition: 0.7s;
 }
 
 .section-6
 {
-    padding: 50 px;
+    padding: 50px;
 }
 /* section 6 end */
 
@@ -275,7 +275,7 @@ nav{
 footer
 {
     background-color: black;
-    padding: 20 px;
+    padding: 20px;
 }
 
 .footer-box-1
@@ -283,7 +283,7 @@ footer
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 8 px;
+    gap: 8px;
     color: greenyellow;
 }
 
