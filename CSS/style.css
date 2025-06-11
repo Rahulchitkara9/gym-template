@@ -49,13 +49,28 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.section-1
-{
     max-width: 1200px;
     margin: auto;
 }
+
+
+
+
+.section-1-box
+{
+width: 50%;}
+
+.section-1-box img{
+    /* width: 100%; */
+    /* height: 500px; */
+    width:80%;
+    object-fit: scale-down
+}
+
+.section-1-box-2{
+    display: flex;
+    justify-content: center;align-items: center; 
+    flex-direction: column;}
 
 .section-1 .hd
 {
@@ -91,10 +106,11 @@ nav{
     text-align: center;
     justify-content: space-around;
     gap: 50px;
+    padding: 100px 0;
 
 }
 .section-2-box{
-    padding: 100px 0;
+    /* padding: 100px 0; */
 
 }
 .section-2-box i{
@@ -295,3 +311,67 @@ footer
     color: greenyellow;
 }
 /* footer end */
+
+
+/* query media  */
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: red;
+  }
+.section-1{
+    flex-direction: column;
+    padding: 20px;;
+}
+.section-1-box{
+    /* border 2px solid black; */
+    width: 100%;
+}
+.section-2{
+    flex-direction: column;
+    
+}
+.section-3{
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-4 .section-4-box{
+    font-size: 12px
+}
+
+.section-4
+{
+    padding: 20px;
+}
+
+.section-4-box-4 img{
+    height: 60px;
+    width: 70px;
+}
+
+.container{
+    flex-direction: column;
+}
+
+.section-5-box-2 p
+{
+    font-size: 12px;
+    text-align: center;
+}
+
+.section-6-box-1 h4
+{
+    font-size: 10px;
+}
+
+.section-6-box-2 button
+{
+    width: 50%;
+}
+
+.section-6
+{
+   background-color: green; 
+}
+}
