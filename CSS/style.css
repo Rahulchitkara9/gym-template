@@ -17,7 +17,8 @@ nav{
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
-    margin: auto
+    margin: auto;
+
 }
 .links{
     display: flex;
@@ -39,6 +40,9 @@ nav{
 }
 #logo{
     font-size: 40px;
+}
+.menuBtn{
+    display: none;
 }
 /* navbar end  */
 
@@ -109,10 +113,7 @@ width: 50%;}
     padding: 100px 0;
 
 }
-.section-2-box{
-    /* padding: 100px 0; */
 
-}
 .section-2-box i{
     color: green;
     font-size: 50px;
@@ -315,63 +316,149 @@ footer
 
 /* query media  */
 
-@media screen and (max-width: 600px) {
-  body {
-    background-color: red;
-  }
-.section-1{
-    flex-direction: column;
-    padding: 20px;;
-}
-.section-1-box{
-    /* border 2px solid black; */
-    width: 100%;
-}
-.section-2{
-    flex-direction: column;
-    
-}
-.section-3{
-    flex-direction: column;
-    align-items: center;
-}
-
-.section-4 .section-4-box{
-    font-size: 12px
-}
-
-.section-4
+@media screen and (max-width: 600px) 
 {
+    body {
+        background-color: green;
+    }
+    .section-1{
+        flex-direction: column;
+        padding: 20px;;
+    }
+    .section-1-box{
+        /* border 2px solid black; */
+        width: 100%;
+    }
+
+    .section-2{
+        flex-direction: column;
+        
+    }
+    .section-3{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-4 .section-4-box{
+        font-size: 12px
+    }
+
+    .section-4
+    {
+        padding: 20px;
+    }
+
+    .section-4-box-4 img{
+        height: 60px;
+        width: 70px;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    .section-5-box-2 p
+    {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .section-6-box-1 h4
+    {
+        font-size: 10px;
+    }
+
+    .section-6-box-2 button
+    {
+        width: 50%;
+    }
+
+    .section-6
+    {
+    background-color: green; 
+    }
+    .menuBtn{
+        display: inline;
+    }
+.links{
+    display: none;
+}
+nav{
+    padding: 0 20px;
+}
+.menuBtn{
+    font-size: 30px;
+    background: none;
+    border: none;
+    color: white;
+}
+}
+
+.background-section
+{
+    height: 80vh;
+    background: url("/images/gymimg.avif");
+    display: flex; 
+justify-content: center;
+align-items: center;
+    width: 100%; 
+    color: white;
+    /* padding: 30px; */
+}
+
+.login-form{
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
     padding: 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.login-form input
+{   
+    border: none;
+    background: none;
+    text-align: center;
+    border-bottom: 2px solid white;
+   font-size: 15px;
+    width: 100%;
+    margin-top: 20px;
+}
+.login-form input::placeholder
+{   
+color: white;
+
 }
 
-.section-4-box-4 img{
-    height: 60px;
-    width: 70px;
-}
 
-.container{
-    flex-direction: column;
-}
-
-.section-5-box-2 p
+.background-section
 {
-    font-size: 12px;
     text-align: center;
 }
 
-.section-6-box-1 h4
+.login-div-2
 {
-    font-size: 10px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    gap: 6%;
 }
 
-.section-6-box-2 button
+.login-div-2 a 
 {
-    width: 50%;
+    position: relative;
+    left: 5%;
 }
 
-.section-6
+
+.background-section .btn
 {
-   background-color: green; 
+    padding: 10px; 
+    background-color: white; 
+    color: black; border: none; 
+    border-radius: 5px;
+    width: 31%;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
 }
-}
+
